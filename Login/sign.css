@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #181616; /* Black */
+    background: #181616;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ p {
 
 span {
     font-size: 12px;
-    color: white; /* Ensure span text color is white */
+    color: white; 
 }
 
 a {
@@ -46,15 +46,15 @@ a {
 
 button {
     border-radius: 20px;
-    border: 1px solid #1f83ed; /* Blue */
-    background-color: #1f83ed; /* Blue */
+    border: 1px solid #1f83ed; 
+    background-color: #1f83ed; 
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in, background-color 0.3s ease; /* Added transition for background color */
+    transition: transform 80ms ease-in, background-color 0.3s ease; 
 }
 
 button:active {
@@ -70,13 +70,12 @@ button.ghost {
     border-color: #FFFFFF;
 }
 
-/* Hover effect for sign-in and sign-up buttons */
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 form {
-    background-color: #221f1f; /* Dark Gray */
+    background-color: #221f1f; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,17 +91,17 @@ input {
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
-    border-radius: 5px; /* Optional: Add a border-radius for rounded corners */
-    transition: border-color 0.3s ease; /* Smooth transition for outline color change */
+    border-radius: 5px; 
+    transition: border-color 0.3s ease; 
 }
 
 input:focus {
-    outline: 2px solid #1f83ed; /* Blue outline */
-    outline-offset: 2px; /* Optional: Space between the outline and the input field */
+    outline: 2px solid #1f83ed;
+    outline-offset: 2px;
 }
 
 .container {
-    background-color: #FFFFFF; /* White */
+    background-color: #FFFFFF; 
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
         0 10px 10px rgba(0,0,0,0.22);
@@ -173,8 +172,8 @@ input:focus {
 
 .overlay {
     background: #1f83ed; /* Blue */
-    background: -webkit-linear-gradient(to right, #1f83ed, #181616); /* Blue to Black */
-    background: linear-gradient(to right, #1f83ed, #181616); /* Blue to Black */
+    background: -webkit-linear-gradient(to right, #1f83ed, #181616); 
+    background: linear-gradient(to right, #1f83ed, #181616); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
@@ -228,7 +227,7 @@ input:focus {
 }
 
 .social-container a {
-    border: 1px solid #1f83ed; /* Blue */
+    border: 1px solid #1f83ed; 
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -236,16 +235,16 @@ input:focus {
     margin: 0 5px;
     height: 40px;
     width: 40px;
-    color: #1f83ed; /* Blue color for icons */
-    background-color: #221f1f; /* Dark Gray background for visibility */
+    color: #1f83ed; 
+    background-color: #221f1f; 
 }
 
 social-container i {
-    color: #1f83ed; /* Blue color for icons */
+    color: #1f83ed; 
 }
 
 footer {
-    background-color: #181616; /* Black */
+    background-color: #181616;
     color: #fff;
     font-size: 14px;
     bottom: 0;
@@ -269,16 +268,14 @@ footer a {
     text-decoration: none;
 }
 
-/* Existing CSS remains the same */
-
 .go-back-btn {
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: #1f83ed; /* Blue background */
+    background-color: #1f83ed;
     color: white;
     border: none;
-    border-radius: 25px; /* Rounded corners */
+    border-radius: 25px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -286,11 +283,11 @@ footer a {
     align-items: center;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    z-index: 110; /* Ensure it is above other content */
+    z-index: 110; 
 }
 
 .go-back-btn i {
-    margin-right: 10px; /* Space between the arrow and text */
+    margin-right: 10px; 
 }
 
 .go-back-btn:hover {
